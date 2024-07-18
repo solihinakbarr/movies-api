@@ -1,8 +1,36 @@
-# React + Vite
+# Infinity Movies
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Infinity Movies adalah sebuah aplikasi web yang memungkinkan pengguna untuk mencari dan melihat informasi film menggunakan React dan Vite.
 
-Currently, two official plugins are available:
+## Fitur
+- Cari film berdasarkan judul
+- Lihat detail film termasuk deskripsi, tanggal rilis, dan rating
+- Antarmuka pengguna yang responsif dan menarik
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Teknologi yang Digunakan
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+## Prasyarat
+Sebelum memulai, pastikan Anda telah menginstal perangkat lunak berikut:
+- [Node.js](https://nodejs.org/) (Versi 14.x atau lebih baru)
+- [npm](https://www.npmjs.com/) (Biasanya disertakan dengan Node.js)
+
+## Instalasi
+1. Clone repository ini ke komputer Anda:
+    ```bash
+    git clone https://github.com/username/infinity-movies.git
+    cd infinity-movies
+    ```
+
+2. Install dependensi:
+    ```bash
+    npm install
+    ```
+
+## Menjalankan Aplikasi
+Untuk menjalankan aplikasi secara lokal, gunakan perintah berikut:
+```bash
+npm run dev
+
