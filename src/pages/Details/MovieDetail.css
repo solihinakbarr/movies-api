@@ -1,0 +1,132 @@
+.movie-detail {
+  position: relative;
+  width: 100%;
+  height: 90vh; /* Menjadikan tinggi full screen */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding-left: 100px;
+}
+.movie__tagline {
+  margin-bottom: 10px;
+}
+
+.movie__info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.movie__rating,
+.movie__runtime,
+.movie__releaseDate {
+  margin-right: 20px;
+}
+
+.movie__rating {
+  display: flex;
+  align-items: center;
+}
+
+.movie__rating i,
+.movie__runtime i {
+  margin-left: 5px;
+}
+
+.movie__voteCount {
+  margin-left: 5px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Overlay merah pekat */
+}
+
+.movie-content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+  z-index: 1; /* Membuat konten berada di atas latar belakang */
+}
+
+.poster {
+  flex: 1;
+  max-width: 300px;
+}
+
+.poster img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.details {
+  flex: 2;
+  max-width: calc(100% - 340px);
+}
+
+.details h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.details .overview {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.details .info {
+  font-size: 14px;
+  /* font-weight: 500; */
+  /* display: flex; */
+
+  /* gap: 20px; */
+  /* font-style: italic; */
+}
+
+.details .info p {
+  margin: 5px 0;
+}
+
+.crew {
+  margin-top: 20px;
+}
+
+.crew > div {
+  margin-bottom: 10px;
+}
+
+.genres {
+  margin-top: 20px;
+}
+
+.genres h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.genres ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.genres ul li {
+  margin-right: 10px;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: 1px solid white;
+}

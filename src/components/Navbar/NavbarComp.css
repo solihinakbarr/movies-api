@@ -1,0 +1,25 @@
+/* NavbarComp.css */
+.navbar {
+  background-color: black !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-weight: 800;
+  font-family: sans-serif;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-brand span {
+  color: red;
+}
+
+.navbar-nav .nav-link {
+  margin-left: 10px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: red !important;
+}

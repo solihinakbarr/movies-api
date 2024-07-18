@@ -1,0 +1,90 @@
+.top-rated-comp {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.top-rated-comp h1 {
+  margin-bottom: 20px;
+}
+
+.top-rated-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 5px;
+}
+
+.top-rated-card-container {
+  padding: 10px;
+  cursor: pointer; /* Menambahkan cursor pointer untuk indikasi bisa diklik */
+}
+
+.top-rated-card {
+  position: relative;
+  background: #222;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  height: 300px;
+  width: 200px;
+  transition: transform 0.3s;
+  border: 2px solid red;
+}
+
+.top-rated-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.top-rated-card:hover img {
+  transform: scale(1.05);
+}
+
+.top-rated-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 1) 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  color: white;
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.top-rated-card:hover .top-rated-info {
+  opacity: 1;
+}
+
+.top-rated-info h3 {
+  margin-bottom: 10px;
+}
+
+.top-rated-info p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-style: italic; /* Mengatur teks menjadi italic */
+}
+
+.top-rated-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-rated-details span {
+  font-size: 12px;
+}
