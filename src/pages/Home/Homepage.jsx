@@ -4,10 +4,10 @@ import PopularComp from "../../components/Popular/PopularComp";
 
 const Homepage = () => {
   return (
-    <div>
+    <>
       <BannerComp />
       <PopularComp />
-    </div>
+    </>
   );
 };
 
