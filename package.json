@@ -1,7 +1,6 @@
 {
   "name": "infinity-movies",
   "private": true,
-"homepage": "https://solihinakbarr.github.io/movies-api",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
